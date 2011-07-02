@@ -5,6 +5,7 @@ gem 'haml-rails'
 gem 'sass'
 gem 'compass', ">= 0.11.3"
 gem 'rake', '0.8.7'
+gem 'chriseppstein-compass'
 
 #For html2haml
 gem 'hpricot'
