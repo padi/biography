@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe "pages/home.html.haml" do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "should display the title" do
+    render
+    rendered.should have_selector('h1', :content => "Anne Frank")
+  end
 end

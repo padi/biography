@@ -5,7 +5,7 @@ gem 'haml-rails'
 gem 'sass'
 gem 'compass', ">= 0.11.3"
 gem 'rake', '0.8.7'
-gem 'rspec-rails', '2.6.1'
+
 
 #For html2haml
 gem 'hpricot'
@@ -35,6 +35,8 @@ gem 'sqlite3'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+group :development, :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'nokogiri'
+  gem 'webrat'
+end
