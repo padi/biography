@@ -188,7 +188,7 @@ ul {
 
 /* line 136, ../../app/stylesheets/partials/_typography.sass */
 ol {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 /* line 139, ../../app/stylesheets/partials/_typography.sass */
@@ -320,4 +320,57 @@ caption {
 .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+/* line 16, ../../app/stylesheets/application.sass */
+body {
+  background: url(../images/bg.png) center no-repeat;
+}
+/* line 19, ../../app/stylesheets/application.sass */
+body #header {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  -webkit-box-shadow: 10px 10px 5px black;
+  background: url(../images/header.png);
+}
+/* line 24, ../../app/stylesheets/application.sass */
+body #primary {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+/* line 27, ../../app/stylesheets/application.sass */
+body #primary #profile img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  -webkit-box-shadow: 10px 10px 5px black;
+  width: 50%;
+  display: block;
+  margin: 20px auto 30px auto;
+}
+/* line 33, ../../app/stylesheets/application.sass */
+body #primary #timeline {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  -webkit-box-shadow: 10px 10px 5px black;
+  background: url(../images/brown_bg.jpg);
+}
+/* line 37, ../../app/stylesheets/application.sass */
+body #primary #timeline ol li {
+  padding: 10px;
+}
+/* line 40, ../../app/stylesheets/application.sass */
+body #footer {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 30px;
 }

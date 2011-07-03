@@ -11,4 +11,14 @@
     = csrf_meta_tag
     
   %body
-    = yield
+    %div#container
+      %div#header
+        %h1
+          %span Anne Frank: A Brief History
+        %h3 Anne Frank is a Jewish girl who had to go into hiding during the Second World War to escape the Nazis
+        
+      %div#primary
+        = yield
+        %div.clear
+      %div#footer
+        &copy; "Anne Frank: A Brief History" (2011)

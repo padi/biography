@@ -1,3 +1,41 @@
-//PENDING sass file. Add your application styles here
 @import "partials/base"
 @import "partials/typography"
+
+@mixin base
+  width: 800px
+  margin: 0 auto
+  padding: 20px 30px
+
+@mixin roundcorner($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  border-radius: $radius
+  box-shadow: 10px 10px 5px #000
+  -webkit-box-shadow: 10px 10px 5px #000
+
+body
+  background: url(../images/bg.png) center no-repeat
+  
+  #header
+    @include base
+    @include roundcorner(20px)
+    background: url(../images/header.png)
+    
+  #primary
+    @include base
+    #profile
+      img
+        @include roundcorner(20px)
+        width: 50%
+        display: block
+        margin: 20px auto 30px auto
+      
+    #timeline
+      @include roundcorner(20px)
+      background: url(../images/brown_bg.jpg)
+      ol
+        li
+          padding: 10px
+    
+  #footer
+    @include base
