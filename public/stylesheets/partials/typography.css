@@ -6,12 +6,12 @@
  *-------------------------------------------------------------- */
 /* Default font settings.
  * The font-size percentage is of 16px. (0.75 * 16px = 12px) */
-/* line 10, ../../app/stylesheets/partials/_typography.sass */
+/* line 10, ../../../app/stylesheets/partials/typography.sass */
 html {
   font-size: 100.01%;
 }
 
-/* line 13, ../../app/stylesheets/partials/_typography.sass */
+/* line 13, ../../../app/stylesheets/partials/typography.sass */
 body {
   font-size: 75%;
   color: #222222;
@@ -21,53 +21,53 @@ body {
 
 /* Headings
  *-------------------------------------------------------------- */
-/* line 22, ../../app/stylesheets/partials/_typography.sass */
+/* line 22, ../../../app/stylesheets/partials/typography.sass */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #111111;
 }
 
-/* line 26, ../../app/stylesheets/partials/_typography.sass */
+/* line 26, ../../../app/stylesheets/partials/typography.sass */
 h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.5em;
 }
 
-/* line 31, ../../app/stylesheets/partials/_typography.sass */
+/* line 31, ../../../app/stylesheets/partials/typography.sass */
 h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
 }
 
-/* line 35, ../../app/stylesheets/partials/_typography.sass */
+/* line 35, ../../../app/stylesheets/partials/typography.sass */
 h3 {
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1em;
 }
 
-/* line 40, ../../app/stylesheets/partials/_typography.sass */
+/* line 40, ../../../app/stylesheets/partials/typography.sass */
 h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
 
-/* line 45, ../../app/stylesheets/partials/_typography.sass */
+/* line 45, ../../../app/stylesheets/partials/typography.sass */
 h5 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.5em;
 }
 
-/* line 50, ../../app/stylesheets/partials/_typography.sass */
+/* line 50, ../../../app/stylesheets/partials/typography.sass */
 h6 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 54, ../../app/stylesheets/partials/_typography.sass */
+/* line 54, ../../../app/stylesheets/partials/typography.sass */
 h1 img, h2 img, h3 img,
 h4 img, h5 img, h6 img {
   margin: 0;
@@ -75,93 +75,93 @@ h4 img, h5 img, h6 img {
 
 /* Text elements
  *-------------------------------------------------------------- */
-/* line 61, ../../app/stylesheets/partials/_typography.sass */
+/* line 61, ../../../app/stylesheets/partials/typography.sass */
 p {
   margin: 0 0 1.5em;
 }
 
 /*	These can be used to pull an image at the start of a paragraph, so 
  *	that the text flows around it (usage: <p><img class="left">Text</p>) */
-/* line 67, ../../app/stylesheets/partials/_typography.sass */
+/* line 67, ../../../app/stylesheets/partials/typography.sass */
 .left {
   float: left !important;
 }
 
-/* line 70, ../../app/stylesheets/partials/_typography.sass */
+/* line 70, ../../../app/stylesheets/partials/typography.sass */
 p .left {
   margin: 1.5em 1.5em 1.5em 0;
   padding: 0;
 }
 
-/* line 74, ../../app/stylesheets/partials/_typography.sass */
+/* line 74, ../../../app/stylesheets/partials/typography.sass */
 .right {
   float: right !important;
 }
 
-/* line 77, ../../app/stylesheets/partials/_typography.sass */
+/* line 77, ../../../app/stylesheets/partials/typography.sass */
 p .right {
   margin: 1.5em 0 1.5em 1.5em;
   padding: 0;
 }
 
-/* line 81, ../../app/stylesheets/partials/_typography.sass */
+/* line 81, ../../../app/stylesheets/partials/typography.sass */
 a:focus,
 a:hover {
   color: #0099ff;
 }
 
-/* line 85, ../../app/stylesheets/partials/_typography.sass */
+/* line 85, ../../../app/stylesheets/partials/typography.sass */
 a {
   color: #0066cc;
   text-decoration: underline;
 }
 
-/* line 89, ../../app/stylesheets/partials/_typography.sass */
+/* line 89, ../../../app/stylesheets/partials/typography.sass */
 blockquote {
   margin: 1.5em;
   color: #666666;
   font-style: italic;
 }
 
-/* line 94, ../../app/stylesheets/partials/_typography.sass */
+/* line 94, ../../../app/stylesheets/partials/typography.sass */
 strong, dfn {
   font-weight: bold;
 }
 
-/* line 97, ../../app/stylesheets/partials/_typography.sass */
+/* line 97, ../../../app/stylesheets/partials/typography.sass */
 em, dfn {
   font-style: italic;
 }
 
-/* line 100, ../../app/stylesheets/partials/_typography.sass */
+/* line 100, ../../../app/stylesheets/partials/typography.sass */
 sup, sub {
   line-height: 0;
 }
 
-/* line 103, ../../app/stylesheets/partials/_typography.sass */
+/* line 103, ../../../app/stylesheets/partials/typography.sass */
 abbr,
 acronym {
   border-bottom: 1px dotted #666666;
 }
 
-/* line 107, ../../app/stylesheets/partials/_typography.sass */
+/* line 107, ../../../app/stylesheets/partials/typography.sass */
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 
-/* line 111, ../../app/stylesheets/partials/_typography.sass */
+/* line 111, ../../../app/stylesheets/partials/typography.sass */
 del {
   color: #666666;
 }
 
-/* line 114, ../../app/stylesheets/partials/_typography.sass */
+/* line 114, ../../../app/stylesheets/partials/typography.sass */
 pre {
   margin: 1.5em 0;
   white-space: pre;
 }
 
-/* line 118, ../../app/stylesheets/partials/_typography.sass */
+/* line 118, ../../../app/stylesheets/partials/typography.sass */
 pre, code, tt {
   font: 1em "andale mono", "lucida console", monospace;
   line-height: 1.5;
@@ -169,39 +169,39 @@ pre, code, tt {
 
 /* Lists
  *-------------------------------------------------------------- */
-/* line 125, ../../app/stylesheets/partials/_typography.sass */
+/* line 125, ../../../app/stylesheets/partials/typography.sass */
 li ul,
 li ol {
   margin: 0;
 }
 
-/* line 129, ../../app/stylesheets/partials/_typography.sass */
+/* line 129, ../../../app/stylesheets/partials/typography.sass */
 ul, ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 1.5em;
 }
 
-/* line 133, ../../app/stylesheets/partials/_typography.sass */
+/* line 133, ../../../app/stylesheets/partials/typography.sass */
 ul {
   list-style-type: disc;
 }
 
-/* line 136, ../../app/stylesheets/partials/_typography.sass */
+/* line 136, ../../../app/stylesheets/partials/typography.sass */
 ol {
-  list-style-type: disc;
+  list-style-type: decimal;
 }
 
-/* line 139, ../../app/stylesheets/partials/_typography.sass */
+/* line 139, ../../../app/stylesheets/partials/typography.sass */
 dl {
   margin: 0 0 1.5em 0;
 }
 
-/* line 142, ../../app/stylesheets/partials/_typography.sass */
+/* line 142, ../../../app/stylesheets/partials/typography.sass */
 dl dt {
   font-weight: bold;
 }
 
-/* line 145, ../../app/stylesheets/partials/_typography.sass */
+/* line 145, ../../../app/stylesheets/partials/typography.sass */
 dd {
   margin-left: 1.5em;
 }
@@ -211,112 +211,112 @@ dd {
 /*	Because of the need for padding on TH and TD, the vertical rhythm 
  *	on table cells has to be 27px, instead of the standard 18px or 36px 
  *	of other elements. */
-/* line 155, ../../app/stylesheets/partials/_typography.sass */
+/* line 155, ../../../app/stylesheets/partials/typography.sass */
 table {
   margin-bottom: 1.4em;
   width: 100%;
 }
 
-/* line 159, ../../app/stylesheets/partials/_typography.sass */
+/* line 159, ../../../app/stylesheets/partials/typography.sass */
 th {
   font-weight: bold;
 }
 
-/* line 162, ../../app/stylesheets/partials/_typography.sass */
+/* line 162, ../../../app/stylesheets/partials/typography.sass */
 thead th {
   background: #c3d9ff;
 }
 
-/* line 165, ../../app/stylesheets/partials/_typography.sass */
+/* line 165, ../../../app/stylesheets/partials/typography.sass */
 th, td, caption {
   padding: 4px 10px 4px 5px;
 }
 
 /*	You can zebra-stripe your tables in outdated browsers by adding 
  *	the class "even" to every other table row. */
-/* line 172, ../../app/stylesheets/partials/_typography.sass */
+/* line 172, ../../../app/stylesheets/partials/typography.sass */
 tbody tr:nth-child(even) td,
 tbody tr.even td {
   background: #e5ecf9;
 }
 
-/* line 176, ../../app/stylesheets/partials/_typography.sass */
+/* line 176, ../../../app/stylesheets/partials/typography.sass */
 tfoot {
   font-style: italic;
 }
 
-/* line 179, ../../app/stylesheets/partials/_typography.sass */
+/* line 179, ../../../app/stylesheets/partials/typography.sass */
 caption {
   background: #eeeeee;
 }
 
 /* Misc classes
  *-------------------------------------------------------------- */
-/* line 185, ../../app/stylesheets/partials/_typography.sass */
+/* line 185, ../../../app/stylesheets/partials/typography.sass */
 .small {
   font-size: 0.8em;
   margin-bottom: 1.875em;
   line-height: 1.875em;
 }
 
-/* line 190, ../../app/stylesheets/partials/_typography.sass */
+/* line 190, ../../../app/stylesheets/partials/typography.sass */
 .large {
   font-size: 1.2em;
   line-height: 2.5em;
   margin-bottom: 1.25em;
 }
 
-/* line 195, ../../app/stylesheets/partials/_typography.sass */
+/* line 195, ../../../app/stylesheets/partials/typography.sass */
 .hide {
   display: none;
 }
 
-/* line 198, ../../app/stylesheets/partials/_typography.sass */
+/* line 198, ../../../app/stylesheets/partials/typography.sass */
 .quiet {
   color: #666666;
 }
 
-/* line 201, ../../app/stylesheets/partials/_typography.sass */
+/* line 201, ../../../app/stylesheets/partials/typography.sass */
 .loud {
   color: black;
 }
 
-/* line 204, ../../app/stylesheets/partials/_typography.sass */
+/* line 204, ../../../app/stylesheets/partials/typography.sass */
 .highlight {
   background: yellow;
 }
 
-/* line 207, ../../app/stylesheets/partials/_typography.sass */
+/* line 207, ../../../app/stylesheets/partials/typography.sass */
 .added {
   background: #006600;
   color: white;
 }
 
-/* line 211, ../../app/stylesheets/partials/_typography.sass */
+/* line 211, ../../../app/stylesheets/partials/typography.sass */
 .removed {
   background: #990000;
   color: white;
 }
 
-/* line 215, ../../app/stylesheets/partials/_typography.sass */
+/* line 215, ../../../app/stylesheets/partials/typography.sass */
 .first {
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 219, ../../app/stylesheets/partials/_typography.sass */
+/* line 219, ../../../app/stylesheets/partials/typography.sass */
 .last {
   margin-right: 0;
   padding-right: 0;
 }
 
-/* line 223, ../../app/stylesheets/partials/_typography.sass */
+/* line 223, ../../../app/stylesheets/partials/typography.sass */
 .top {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 227, ../../app/stylesheets/partials/_typography.sass */
+/* line 227, ../../../app/stylesheets/partials/typography.sass */
 .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
