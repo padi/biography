@@ -5,7 +5,7 @@ gem 'haml-rails'
 gem 'sass'
 gem 'compass', ">= 0.11.3"
 gem 'rake', '0.8.7'
-gem 'chriseppstein-compass'
+gem 'rspec-rails', '2.6.1'
 
 #For html2haml
 gem 'hpricot'
@@ -14,7 +14,7 @@ gem 'ruby_parser'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# gem 'sqlite3'
+gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
