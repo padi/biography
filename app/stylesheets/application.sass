@@ -1,6 +1,8 @@
 @import "partials/base"
 @import "partials/typography"
 
+$bgcolor: #CC9966
+
 @mixin base
   width: 800px
   margin: 0 auto
@@ -14,7 +16,7 @@
   -webkit-box-shadow: 10px 10px 5px #000
 
 body
-  background: url(../images/bg.png) center no-repeat
+  background: url(../images/bg.png) center #111111
   
   #header
     @include base
@@ -26,7 +28,6 @@ body
     #profile
       img
         @include roundcorner(20px)
-        width: 50%
         display: block
         margin: 20px auto 30px auto
       
