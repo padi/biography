@@ -37,7 +37,7 @@ h1 {
 /* line 31, ../../app/stylesheets/partials/_typography.sass */
 h2 {
   font-size: 2em;
-  margin-bottom: 0.75em;
+  margin: 0.5em 0;
 }
 
 /* line 35, ../../app/stylesheets/partials/_typography.sass */
@@ -89,7 +89,7 @@ p {
 
 /* line 70, ../../app/stylesheets/partials/_typography.sass */
 p .left {
-  margin: 1.5em 1.5em 1.5em 0;
+  margin: 1em 1em 1em 0;
   padding: 0;
 }
 
@@ -100,7 +100,7 @@ p .left {
 
 /* line 77, ../../app/stylesheets/partials/_typography.sass */
 p .right {
-  margin: 1.5em 0 1.5em 1.5em;
+  margin: 1em 0 1em 1em;
   padding: 0;
 }
 
@@ -324,7 +324,7 @@ caption {
 
 /* line 18, ../../app/stylesheets/application.sass */
 body {
-  background: url(../images/bg.png) center #111111;
+  background: url(../images/bg.jpg) center;
 }
 /* line 21, ../../app/stylesheets/application.sass */
 body #header {
@@ -336,15 +336,15 @@ body #header {
   border-radius: 20px;
   box-shadow: 10px 10px 5px black;
   -webkit-box-shadow: 10px 10px 5px black;
-  background: url(../images/header.png);
+  background: url(../images/header.jpg);
 }
-/* line 26, ../../app/stylesheets/application.sass */
+/* line 27, ../../app/stylesheets/application.sass */
 body #primary {
   width: 800px;
   margin: 0 auto;
   padding: 20px 30px;
 }
-/* line 29, ../../app/stylesheets/application.sass */
+/* line 30, ../../app/stylesheets/application.sass */
 body #primary #profile img {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -354,7 +354,7 @@ body #primary #profile img {
   display: block;
   margin: 20px auto 30px auto;
 }
-/* line 34, ../../app/stylesheets/application.sass */
+/* line 36, ../../app/stylesheets/application.sass */
 body #primary #timeline {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -363,11 +363,11 @@ body #primary #timeline {
   -webkit-box-shadow: 10px 10px 5px black;
   background: url(../images/brown_bg.jpg);
 }
-/* line 38, ../../app/stylesheets/application.sass */
+/* line 41, ../../app/stylesheets/application.sass */
 body #primary #timeline ol li {
   padding: 10px;
 }
-/* line 41, ../../app/stylesheets/application.sass */
+/* line 44, ../../app/stylesheets/application.sass */
 body #footer {
   width: 800px;
   margin: 0 auto;

@@ -1,8 +1,6 @@
 @import "partials/base"
 @import "partials/typography"
 
-$bgcolor: #CC9966
-
 @mixin base
   width: 800px
   margin: 0 auto
@@ -12,27 +10,32 @@ $bgcolor: #CC9966
   -webkit-border-radius: $radius
   -moz-border-radius: $radius
   border-radius: $radius
+
+@mixin lower-right-shadow
   box-shadow: 10px 10px 5px #000
   -webkit-box-shadow: 10px 10px 5px #000
 
 body
-  background: url(../images/bg.png) center #111111
+  background: url(../images/bg.jpg) center
   
   #header
     @include base
     @include roundcorner(20px)
-    background: url(../images/header.png)
+    @include lower-right-shadow
+    background: url(../images/header.jpg)
     
   #primary
     @include base
     #profile
       img
         @include roundcorner(20px)
+        @include lower-right-shadow
         display: block
         margin: 20px auto 30px auto
       
     #timeline
       @include roundcorner(20px)
+      @include lower-right-shadow
       background: url(../images/brown_bg.jpg)
       ol
         li
